@@ -1,0 +1,117 @@
+@media only screen and (max-width: 768px) {
+.search-header, .logo {
+    display: none;
+	}
+
+.hide-label-sm, .responsive-hide {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	border: 0;
+	}
+	
+.markasread-right, .visited-right {
+	text-align: left;
+	float: left;
+	padding-top: 0.4em;
+	}
+
+.cat-heading .post-heading, .cat-heading .topic-heading, .cat-heading .last-heading {
+	display: none;
+	}	
+	
+.forum-row dd.posts, .forum-row dd.topics, .forum-row dd.lastpost {
+	display: none;
+	}
+	
+.topic-row dd.views, .topic-row dd.replies, .topic-row dd.lastpost {
+	display: none;
+	}	
+	
+footer .footer-credit {
+	text-align: center;
+	}
+	
+.subs {
+	padding-bottom: 6px;
+	}
+	
+.res-topics{
+	font-size: 0.8em;
+	}
+	
+.topic-row .pagination {
+	font-size: 0.8em;
+	padding-right: 6px;
+	 margin-top: -15px;
+	}
+	
+.button-xsmall {
+	font-size: 50%;
+    }
+
+.button-small {
+	font-size: 75%;
+	}
+
+.button-normal {
+	font-size: 90%;
+	}
+
+.button-large {
+	font-size: 100%;
+}
+
+ .button-xlarge {
+	font-size: 110%;
+}
+
+.alt-top-bar {
+	text-align: center;
+	font-size: 0.8em;
+	margin-bottom: 0.9em;
+}
+
+.right-button-bar {
+	margin-top: 0.6em;
+}
+}
+
+@media only screen and (max-width: 480px) {
+	.pure-form button[type=submit] {
+    margin: 0;
+	}
+}
+
+@media only screen and (max-width:  769px) {
+.pure-form input:not([type]), .pure-form input[type=text], .pure-form input[type=password], .pure-form input[type=email], .pure-form input[type=url], .pure-form input[type=date], .pure-form input[type=month], .pure-form input[type=time], .pure-form input[type=datetime], .pure-form input[type=datetime-local], .pure-form input[type=week], .pure-form input[type=number], .pure-form input[type=search], .pure-form input[type=tel], .pure-form input[type=color], .pure-form label {
+    margin-bottom: 0em;
+    display: inline;
+}
+
+.pure-form input[type=text] {
+	padding: 0.2em;
+	}
+}
+
+
+@media only screen and (min-width: 48em) {
+.mobile-search-btn {
+	display: none;
+	}
+	
+.responsive-show {
+	display: none;
+	}
+	
+dd.lastpost dfn {
+    position: absolute;
+    left: -999px;
+    width: 990px;
+}
+
+}

@@ -1,0 +1,77 @@
+
+/* Button classes */
+#phpbb .content a.pure-button {
+    color: #444;
+    color: rgba(0,0,0,.8);
+    border-color: #999;
+    background-color: #E6E6E6;
+}
+
+#phpbb .content a.pure-button:hover {
+	text-decoration: none;
+}
+
+#phpbb .button-primary {
+	background-color: #47A1EB !important;
+	border: 1px solid #1A69AB !important;
+	color: #FFF  !important;
+	}
+
+#phpbb .button-success {
+	background-color: #dff0d8;
+	color: #FFF;
+	}
+
+#phpbb .button-danger {
+	background-color: #f2dede;
+	color: #FFF;
+	}
+
+#phpbb .button-warning {
+	background-color: #fcf8e3;
+	color: #FFF;
+	}
+
+#phpbb .button-secondary {
+	background-color: #DBE7F0;
+	border: 1px solid #7698B5;
+	color: #0D4573;
+	}
+	
+#phpbb .button-header {
+	background-color: #DBE7F0;
+	color: #0D4573;
+	}
+	
+#phpbb .button-subnav {
+	background-color: #FFF;
+	color: #0D4573;
+	}
+	
+#phpbb .button-header-clear {
+	background: none !important;
+	color: #FFF;
+	}
+
+#phpbb .button-header-clear:hover {
+	color: #C9DAE8;
+	}	
+	
+#phpbb .button-header-clear:active {
+	color: #DBE7F0;
+	box-shadow: none;
+	}
+
+/* Other */	
+	
+#phpbb .pure-button {
+	border-radius: 6px;
+	}
+
+#phpbb .pure-button .btn-label {
+	font-weight: bold;
+	}
+	
+.fa {
+	font-weight: normal;
+	}

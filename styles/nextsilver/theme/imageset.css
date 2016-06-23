@@ -1,0 +1,65 @@
+.imageset.site_logo {
+    background-image: url(./images/logo.gif);
+    padding-left: 150px;
+    padding-top: 50px;
+}
+
+span.imageset {
+    display: inline-block !important;
+    background: transparent none 0 0 no-repeat;
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.forum-info {
+    background-position: 2px 5px; 
+	background-repeat: no-repeat;
+	}
+	
+.topic-meta {
+    background-position: 7px 5px; 
+	background-repeat: no-repeat;
+	}	
+	
+a.subforum {
+	background-repeat: no-repeat;
+	}
+	
+a.subforum.read {
+	background-image: url(images/_sfold.png);
+	}
+
+a.subforum.unread {
+	background-image: url(images/_sfnew.png);
+	}			
+	
+.redirect .forum-info {
+	background-image: url(images/_redirect.png);
+	}	
+	
+.read .forum-info {
+	background-image: url(images/_old.png);
+	}
+
+.unread .forum-info {
+	background-image: url(images/_new.png);
+	}	
+	
+.with-subs.read .forum-info {
+	background-image: url(images/_subold.png);
+	}
+
+.with-subs.unread .forum-info {
+	background-image: url(images/_subnew.png);
+	}
+	
+.read .topic-meta {
+	background-image: url(images/_topicold.png);
+	}	
+	
+.unread .topic-meta {
+	background-image: url(images/_topicnew.png);
+	}		

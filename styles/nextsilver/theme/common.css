@@ -1,0 +1,442 @@
+/* Core styles */
+
+html, input, select, textarea,
+.pure-g [class *= "pure-u"] {
+    /* Set your content font stack here: */
+    font-family: "Helvetica Neue", FreeSans, Arimo, "Roboto", Arial, sans-serif;
+}
+
+
+#phpbb {
+	margin: 0 auto;
+	max-width: 1152px;
+	margin: 0 auto;
+	}
+	
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	border: 0;
+}	
+	
+.pure-g > div, .pure-g > dl {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+	box-sizing: border-box;
+    }
+
+.crumb.board-index {
+	font-weight: bold;
+}
+
+/* Header */	
+	
+.page-branding {
+	padding: 0px 12px 6px 12px;
+	padding-right: 0;
+	position: relative;
+	top: -13px;
+	}
+	
+.board-meta {
+    display: inline-block;
+	}	
+	
+.board-title {
+	margin-top: 0.2em;
+	margin-bottom: 0;
+	}
+	
+.board-desc {
+	margin-top: 0.1em;
+	margin-bottom: 0.2em;
+	}
+	
+.search-box.search-header, .page-userbit {
+	float: right;
+	text-align: right;
+	}	
+	
+.search-box.search-header form {
+	border: none;
+	}
+	
+.search-box.search-header fieldset, .page-userbit {
+	padding-top: 0.1em;
+	padding-bottom: 0.3em;
+	padding-right: 0.3em;
+	}
+	
+.page-subnavleft {
+	padding-top: 0.2em;
+	padding-bottom: 0.3em;
+	padding-left: 0.3em;
+	}
+	
+/* Button classes */
+/* Due to CSS structure and splitting, have to override some of it back to the framework code */
+#phpbb .content a.pure-button {
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+
+.button-xsmall {
+	font-size: 70%;
+    }
+
+.button-small {
+	font-size: 85%;
+	}
+
+.button-large {
+	font-size: 110%;
+}
+
+ .button-xlarge {
+	font-size: 125%;
+}
+
+
+.page-search {
+	float: right;
+	display: inline-block;
+}	
+/* Content */
+.content-frame {
+	margin-top: 0.6em;
+	padding: 0 0.4em 0 0.4em;
+	}
+
+.content-breadcrumb {
+	border-top: 1px solid transparent;
+	padding: 0.6em;
+	margin-bottom: 0.8em;
+	border-bottom-right-radius: 6px;
+	border-bottom-left-radius: 6px;
+	}
+	
+.markasread-right, .visited-right {
+	text-align: right;
+	float: right;
+	}
+	
+.markasread-right, .time-zone {
+	margin-top: 1.4em;
+}
+
+.time-left, .visited-right, .markasread-right, .time-zone  {
+	font-size: 0.9em;
+	}
+	
+.forum-table {
+	margin-top: 0.6em;
+	margin-bottom: 0.8em;
+	border-bottom: 3px solid transparent;
+	}
+
+.cat-heading {
+	padding: 0.8em 0.4em;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	}
+
+.cat-heading h2 {
+	margin-top: 0em;
+	margin-bottom: 0.1em;
+	font-size: 1.0em;
+	}
+	
+h1.content-heading {
+	font-size: 1.6em;
+	margin-top: 0em;
+	margin-bottom: 0.1em;
+	padding-bottom: 0.4em;
+	border-bottom: 1px solid transparent;
+	}
+	
+.forum-row {
+	min-height: 74px;
+	}
+
+.forum-row dt, .forum-row dd {
+	padding: 0.3em 0 0.5em 0;
+	}
+	
+.topic-row dt, .topic-row dd {
+	padding: 0.1em 0 0.3em 0;
+	}
+	
+
+.forum-row dd.posts, .forum-row dd.topics, .topic-row dd.views, .topic-row dd.replies  {
+	text-align: center;
+}
+
+.forum-row dd .fr-num {
+	font-size: 1.2em;
+	}
+	
+.topic-row dd .fr-num {
+	font-size: 1.2em;
+	}	
+
+.forum-row dd dfn, .topic-row dd dfn {
+	font-weight: normal;
+	font-style: normal;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	padding-top: 0.6em;
+	}
+
+.forum-row dd.lastpost a {
+	font-weight: bold;
+	}
+	
+.forum-row dd.lastpost .date {
+	font-size: 0.8em;
+}
+	
+.forum-row dd.posts, .forum-row dd.topics, .forum-row dd.lastpost{
+	padding-top: 0.6em;
+}
+
+.topic-row dd.views, .topic-row dd.replies, .topic-row dd.lastpost {
+	padding-top: 0.4em;
+	font-size: 0.9em;
+}
+
+dt .topic-meta {
+	padding-top: 0.1em;
+	}
+
+.topic-row dd.lastpost{
+	padding-top: 0.5em;
+}
+
+.topic-row .topic-title {
+	font-size: 1.1em;
+	}
+
+.forum-row .forum-desc {
+	margin: 0.2em 0 0.3em 0;
+	font-size: 0.9em;
+	}
+	
+.forum-row .subs {
+	margin: 0.1em 0 0.1em 0;
+	font-size: 0.8em;
+	}	
+	
+.forum-row .forum-meta h3, .topic-row .topic-meta h3 {
+	margin-top: 0.1em;
+	margin-bottom: 0.1em;
+	}
+	
+.forum-row dd, .topic-row dd {
+	margin-left: 0;
+}
+
+dl.forum-row, dl.topic-row {
+	padding: 0;
+	margin: 0;
+	color: #4D4D4D;
+}	
+
+.topic-row .topic-author {
+	font-size: 0.9em;
+	}
+	
+ .topic-info .lastpost {
+	font-size: 0.8em;
+	}
+	
+.forum-meta {
+	padding-left: 74px;
+	}
+	
+.topic-meta {
+	padding-left: 50px;
+	}	
+	
+a.subforum {
+	padding-left: 22px;
+	}	
+	
+.pagination {
+    float: right;
+    text-align: right;
+    width: auto;
+}
+
+.pagination ul, .pagination li{
+	display: inline;
+	list-style-type: none;
+	}
+	
+.pagination ul {
+	padding-left: 0;
+	}
+	
+.topic-row .pagination {
+    display: block;
+    margin-top: -18px;
+}	
+	
+.subs a:hover {
+	border-bottom: none;
+	}	
+	
+.search-topics form {
+	display: inline;
+	}
+	
+.post-heading, .topic-heading {
+	text-align: center;
+	}
+	
+.post-heading, .topic-heading, .last-heading {
+	font-weight: bold;
+	text-transform: uppercase;
+	}
+
+.lower-button-bar {
+	margin-bottom: 0.8em;
+	}
+	
+.right-button-bar {
+	text-align: right;
+	}
+	
+.button-bar .pagination li span, .button-bar .pagination li a {
+	padding: 0.4em 0.6em;
+	font-size: 0.8em;
+	border-radius: 6px;	
+	}
+	
+.button-bar .pagination li a:hover, .button-bar .pagination li a:active {
+	text-decoration: none !important;
+	}
+	
+.button-bar .pagination li.ellipsis span {
+	border: none !important;
+	background: none !important;
+	font-weight: bold;
+	padding: 0 0.1em;
+	}	
+
+.topic-row .pagination li span, .topic-row .pagination li a {
+	padding: 0.2em;
+	font-size: 0.8em;
+	border-radius: 4px;	
+	}
+	
+.topic-row .pagination li a:hover, .topic-row .pagination li a:active {
+	text-decoration: none !important;
+	}		
+	
+.bb-topic-count {
+	font-size: 0.8em;
+	padding: 0 0.4em;
+	}
+	
+.lower-stats {
+	margin-bottom: 0.8em;
+	}
+	
+.lower-stats .panel {
+	padding: 0.2em;
+	}
+	
+.lower-stats dd {
+	margin-left: 0;
+	margin-bottom: 0.5em;
+	}
+
+.lower-stats dd dfn {
+	font-weight: bold;
+	font-style: normal;
+	}
+
+.lower-stats dd dfn::after {
+    content: ": ";
+}
+
+.lower-stats .users-online {
+	font-size: 0.9em;
+	}
+
+/* Panels */
+.panel {
+	margin: 0.3em 0;
+	}
+
+.panel-body {
+	padding: 0.3em;
+	border-bottom: 3px solid transparent;
+	}
+	
+.panel p {
+	margin: 0.2em 0 0.5em 0;
+	}
+
+.panel dl {
+	margin: 0.2em 0 0.5em 0;
+	}
+	
+.panel h1 {
+	font-size: 1.1em;
+	text-transform: uppercase;
+	padding: 0.5em 0.4em;
+	margin: 0;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	}
+	
+.panel ul {
+	margin: 0 0 0.3em 0;
+	padding-left: 1.5em;
+	}
+	
+.panel li {
+	padding-left: 0;
+	}
+	
+/* footer */
+.content-footer {
+	padding: 0.6em 0.4em;
+	margin-bottom: 0.4em;
+	border-top-right-radius: 6px;
+	border-top-left-radius: 6px;
+	}
+	
+.footer-links {
+	text-align: right;
+}
+
+.footer-links li.crumb {
+	margin-left: 16px;
+	display: inline;
+	}
+
+.footer-links li.crumb i {
+	padding-right: 5px;
+	}
+	
+.footer-links ul {
+	list-style-type: none;
+	display: inline;
+	}
+	
+footer {
+	color: #4D4D4D;
+	font-size: 0.9em;
+	margin-bottom: 0.8em;
+	}
+	
+.footer-credit {
+	text-align: right;
+	}
